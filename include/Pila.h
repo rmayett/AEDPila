@@ -1,12 +1,13 @@
-#include "Nodo.h"//se reciclo el del proyecto anterior
+//se reciclo el del proyecto anterior
+#include "Nodo.h"
 
 class Pila
 {
 public:
-	Nodo* Tope;
+	Nodo* Tope;//constructores de los metodos
 	Pila();
-	void Pop(int Dato);
-	int Push();
+	void Push(int Dato);
+	int Pop();
 	void Show();
 	void VaciarPila();
 	bool PilaVacia();
